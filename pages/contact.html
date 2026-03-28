@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - KingBackpacker Consulting</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="../index.html" class="logo">
+                <i class="fas fa-hiking"></i>
+                KingBackpacker
+            </a>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Get Your Russian Visa Today</h1>
+                <p>Contact us for e-visa, business visa, work visa, or student visa support</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h2>Indian Citizens</h2>
+                        <p>We specialize in helping Indian professionals, students, and travelers get Russian visas. Free consultation available.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fab fa-whatsapp"></i>
+                                <div>
+                                    <strong>WhatsApp</strong>
+                                    <p><a href="https://wa.me/79336877293" style="color: var(--accent);">+7 933 687-7293</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-telegram"></i>
+                                <div>
+                                    <strong>Telegram</strong>
+                                    <p><a href="https://t.me/Kingbackpacker" style="color: var(--accent);">@Kingbackpacker</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <strong>Email</strong>
+                                    <p>india@kingbackpacker.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="office-hours">
+                            <h3>Support Hours (IST)</h3>
+                            <ul>
+                                <li>Monday - Friday: 10:00 AM - 7:00 PM</li>
+                                <li>Saturday: 11:00 AM - 4:00 PM</li>
+                                <li>Sunday: Emergency support only</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form id="booking-form" class="contact-form">
+                            <div id="form-success" class="success-message" style="display: none;">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Thank you! Our team will contact you within 24 hours about your Russian visa.</p>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="name-error">Please enter your name</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="email-error">Please enter a valid email</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">WhatsApp / Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+91 XXXXX XXXXX">
+                                <span class="error-message" id="phone-error">Please enter your phone number</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service">Visa Type *</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Select visa type</option>
+                                    <option value="e-visa">E-Visa (Tourism/Business)</option>
+                                    <option value="business">Business Visa</option>
+                                    <option value="work">Work Visa</option>
+                                    <option value="student">Student Visa</option>
+                                    <option value="not-sure">Not sure - Need advice</option>
+                                </select>
+                                <span class="error-message" id="service-error">Please select a visa type</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Your Question / Travel Plans *</label>
+                                <textarea id="message" name="message" rows="4" required placeholder="Tell us about your travel purpose, planned dates, and any questions..."></textarea>
+                                <span class="error-message" id="message-error">Please describe your travel plans</span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h3>Need Immediate Assistance?</h3>
+                    <p>Contact us directly on WhatsApp or Telegram for quick response</p>
+                    <div class="cta-buttons">
+                        <a href="https://wa.me/79336877293" class="btn btn-primary" target="_blank">
+                            <i class="fab fa-whatsapp"></i> WhatsApp: +7 933 687-7293
+                        </a>
+                        <a href="https://t.me/Kingbackpacker" class="btn btn-outline" target="_blank">
+                            <i class="fab fa-telegram"></i> Telegram: @Kingbackpacker
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>KingBackpacker Consulting</h4>
+                    <p>Your trusted partner for Russian visas. Helping Indian citizens since 2015.</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/79336877293" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://t.me/Kingbackpacker" target="_blank"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/79336877293">+7 933 687-7293</a></li>
+                        <li><i class="fab fa-telegram"></i> <a href="https://t.me/Kingbackpacker">@Kingbackpacker</a></li>
+                        <li><i class="fas fa-envelope"></i> india@kingbackpacker.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 KingBackpacker Consulting | WhatsApp: +7 933 687-7293 | Telegram: @Kingbackpacker</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/theme.js"></script>
+    <script src="../js/booking.js"></script>
+</body>
+</html>
